@@ -3,15 +3,13 @@
 @media screen and (max-width: 810px) and (min-width:360px){
     
     .main-container{
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .tools-section{
        
-            
-            width: 100%;
-            padding-left: 20px;
-           
-        
             .tool-container{
                 width: 80vw;
                 border-radius: 10px;
@@ -19,12 +17,12 @@
                 background-color: #caebf8;
                 flex-direction: column;
                 align-items: center;
-                justify-content: space-around;
-                height: fit-content;
+                justify-content: space-between;
+                /* height: fit-content; */
                 padding: 10px;
-        
                 padding-top: 45px;
-                margin: 25px;
+                /* margin: 25px; */
+                margin-bottom: 25px;
              
                 .features-icon{
                     width: 60px;
@@ -46,13 +44,10 @@
         .details-section{
           
       
-            width: 100%;
-            height: fit-content;
             padding-left: 20px;
             .details-text-container{
                 padding-left: inherit;
                 width: 80vw;
-                height: fit-content;
                 .details-title{
                     font-size: 30px;
                     margin-bottom: 0px;
@@ -65,17 +60,52 @@
             }
      
             .details-images-container{
-              padding-left: 20px;
+              padding-left: inherit;
               
                .detail-img{
 
                 margin-bottom: 30px;
-                width: 90vw;
-                height: auto;
+                width: 80vw;
+     
                }
     
             }
     
+        }
+        .conclusion-section{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .conclusion-smartphone-img{
+                width: 90vw;
+            }
+            .download-text{
+                font-size: 32px;
+                text-align: center;
+            }
+            .download-btn{
+                .apple-download-btn{
+                    display: flex;
+                    background-color: #594cda;
+                    width: 200px;
+                    border-radius: 30px;
+                    height: 70px;
+                    justify-content: space-evenly;
+                    padding: 5px;
+                    .apple-logo{
+                        width: 28px;
+                        height: 28px;
+                        padding-top: 25px;
+
+                    }
+                    .apple-download-text{
+                        font-size: 28px;
+                        font-weight: bold;
+                        color: white;
+                    }
+
+                }
+            }
         }
     }
  
