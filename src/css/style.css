@@ -1,3 +1,65 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400;700;900&display=swap%27");
+@media screen and (max-width: 810px) and (min-width: 360px) {
+  .main-container {
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+  }
+  .main-container .tools-section {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .main-container .tools-section .tool-container {
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    background-color: #caebf8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 10px;
+    padding-top: 45px;
+    margin: 25px;
+  }
+  .main-container .tools-section .tool-container .features-icon {
+    width: 60px;
+    height: auto;
+  }
+  .main-container .tools-section .tool-container .tool-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main-container .tools-section .tool-container .tool-desc {
+    color: #6c757c;
+    text-align: center;
+    font-size: 15px;
+  }
+  .main-container .details-section {
+    width: 100%;
+    height: fit-content;
+    padding-left: 20px;
+  }
+  .main-container .details-section .details-text-container {
+    padding-left: inherit;
+    width: 80vw;
+    height: fit-content;
+  }
+  .main-container .details-section .details-text-container .details-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .main-container .details-section .details-text-container .details-text {
+    color: #6c757c;
+    font-size: 15px;
+  }
+  .main-container .details-section .details-images-container {
+    padding-left: 20px;
+  }
+  .main-container .details-section .details-images-container .detail-img {
+    margin-bottom: 30px;
+    width: 90vw;
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
