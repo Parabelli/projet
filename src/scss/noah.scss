@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400;700;900&display=swap");
+
+@media only screen /* and (min-width: 360px) */and (max-width: 811px) {
+  body {
+    /* background-color: lightgrey; */
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #818990;
+    h2 {
+      color: black;
+    }
+    .listefleche {
+      h2 {
+        font-size: 3rem;
+        text-align: left;
+      }
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 40px;
+      ul {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+
+        list-style-image: url(assets/images/right-arrow.png);
+        li {
+          margin-left: -20px;
+          margin-top: 10px;
+        }
+      }
+      .formu {
+        align-self: flex-start;
+        .button {
+          padding: 15px 30px;
+          margin-right: 10px;
+          border-radius: 50px;
+          border: solid 1px;
+          background-color: white;
+          align-self: flex-start;
+        }
+        #butviolet {
+          background-color: #594cda;
+          border: none;
+        }
+      }
+    }
+    .text {
+      h2 {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+      }
+    }
+    .imgchiffre {
+      text-align: center;
+      .image {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        img {
+          /* width: 60vw;
+          max-width: inherit;
+          min-width: inherit; */
+          max-width: 100vw;
+        }
+      }
+      .chiffre {
+        justify-content: flex-start;
+        align-self: flex-start;
+        width: inherit;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 2vw;
+        .ch {
+          margin: 0 2vw;
+
+          .ch2 {
+            font-size: 8rem;
+            font-weight: 600;
+          }
+          .ch3 {
+            font-size: 2rem;
+            margin-top: -120px;
+          }
+        }
+        #center {
+          padding-left: 90px;
+        }
+      }
+    }
+    .review {
+      background-color: #f0fafc;
+      figure {
+        #circle {
+          border-radius: 100%;
+        }
+      }
+    }
+    .pricing {
+      background-color: #43484e;
+      color: white;
+    }
+  }
+}
