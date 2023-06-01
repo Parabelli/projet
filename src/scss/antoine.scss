@@ -9,6 +9,8 @@
        padding: 0;
      }
    
+
+     
      body {
        font-family: 'Roboto';
        padding: 20px;
@@ -24,7 +26,10 @@
            width: 200px;
            height: auto;
          }
-
+        
+         .liste {
+          display: none;
+         }
    
        }
    
@@ -78,6 +83,18 @@
    }
    
    
+   @media screen and (min-width: 811px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+      body {
+        font-family: 'Roboto';
+        padding: 20px;
+      }
+  }
 
 
 
