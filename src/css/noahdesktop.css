@@ -1,0 +1,263 @@
+@media only screen and (min-width: 811px) {
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+  }
+  .textflexi {
+    align-self: center;
+    padding: 0 7vw;
+  }
+  .chiffre {
+    align-self: center;
+    justify-content: center;
+    width: inherit;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10vw;
+  }
+  .chiffre .ch {
+    color: black;
+    width: 43vw;
+  }
+  .chiffre .ch .ch2 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .chiffre .ch .ch3 {
+    font-size: 1rem;
+    margin-top: -60px;
+  }
+  .review {
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 20vw;
+    margin-bottom: -5vh;
+    background-color: #f0fafc;
+  }
+  .review h2 {
+    text-align: center;
+  }
+  .review .imgmob {
+    display: none;
+  }
+  .review figure #circle {
+    border-radius: 100%;
+  }
+  .review .reviewflexi {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+  }
+  .review .important {
+    color: black;
+    font-weight: bold;
+  }
+  .review .imgdesk {
+    text-align: center;
+    padding: 0 4vw;
+  }
+  .review .imgdesk .figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    max-width: 100vw;
+  }
+  .review .imgdesk .figure img {
+    max-width: 100vw;
+    margin-left: -8vw;
+  }
+  .prix {
+    padding-top: 10vh;
+    background-color: #43484e;
+  }
+  .prix .pricing {
+    color: white;
+    text-align: center;
+  }
+  .prix .pricing h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: -1vh;
+  }
+  .prix .pricing p {
+    padding: 0 25vw;
+  }
+  .prix .price {
+    padding: 5vh 16vw;
+    height: 350px;
+    background-color: #43484e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .prix .price h2 {
+    color: #eb427d;
+  }
+  .prix .price .price1 {
+    height: 63vh;
+    min-height: 463.85px;
+    max-width: 20vw;
+    border: gray double 2px;
+    margin-bottom: -5vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prix .price .price1 .flexi {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .prix .price .price1 p {
+    padding: 0 2vw;
+  }
+  .prix .price .price1 h3 {
+    font-size: 1.5rem;
+    color: #eb427d;
+    text-align: center;
+  }
+  .prix .price .price1 .dollars {
+    font-size: 2rem;
+    color: black;
+  }
+  .prix .price .price1 .big {
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+  }
+  .prix .price .price1 .btviolet {
+    text-align: center;
+    background-color: #594cda;
+    border: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 10px 35px;
+    color: white;
+  }
+  .prix .price .price1 form {
+    display: flex;
+    justify-content: center;
+  }
+  .prix .price .price2 {
+    height: 63vh;
+    min-height: 463.85px;
+    max-width: 20vw;
+    border: gray double 2px;
+    margin-bottom: -5vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prix .price .price2 .flexi {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .prix .price .price2 p {
+    padding: 0 2vw;
+  }
+  .prix .price .price2 h3 {
+    font-size: 1.5rem;
+    color: #eb427d;
+    text-align: center;
+  }
+  .prix .price .price2 .dollars {
+    font-size: 2rem;
+    color: black;
+  }
+  .prix .price .price2 .big {
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+  }
+  .prix .price .price2 .btviolet {
+    text-align: center;
+    background-color: #594cda;
+    border: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 10px 35px;
+    color: white;
+  }
+  .prix .price .price2 form {
+    display: flex;
+    justify-content: center;
+  }
+  .prix .price .price3 {
+    height: 63vh;
+    min-height: 463.85px;
+    max-width: 20vw;
+    border: gray double 2px;
+    margin-bottom: -5vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .prix .price .price3 .flexi {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .prix .price .price3 p {
+    padding: 0 2vw;
+  }
+  .prix .price .price3 h3 {
+    font-size: 1.5rem;
+    color: #eb427d;
+    text-align: center;
+  }
+  .prix .price .price3 .dollars {
+    font-size: 2rem;
+    color: black;
+  }
+  .prix .price .price3 .big {
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+  }
+  .prix .price .price3 .btviolet {
+    text-align: center;
+    background-color: #594cda;
+    border: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 10px 35px;
+    color: white;
+  }
+  .prix .price .price3 form {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=noahdesktop.css.map */
