@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400;700;900&display=swap");
+@media screen and (max-width: 810px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+
+  body {
+    font-family: 'Roboto';
+    padding: 20px; }
+    body .menu {
+      background-color: #f0fafc;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 11px; }
+      body .menu .logo {
+        width: 200px;
+        height: auto; }
+      body .menu .liste {
+        display: none; }
+    body #desktop img, body .h1desktop, body .pdesktop, body #buttondesk {
+      display: none; }
+    body .sec_head {
+      background-color: #cbebf8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 35px;
+      margin-bottom: 55px; }
+      body .sec_head h1 {
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 60px; }
+      body .sec_head p {
+        color: #7e8b92;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 26px;
+        font-size: 21px;
+        margin-bottom: 30px; }
+      body .sec_head button {
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: none;
+        color: white; }
+        body .sec_head button .fa {
+          font-size: 18px; }
+        body .sec_head button .fa, body .sec_head button .fab {
+          padding-right: 10px; } }
+@media screen and (min-width: 811px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+
+  body {
+    font-family: 'Roboto';
+    padding: 20px; }
+    body .head {
+      background-color: #c9e9f8;
+      padding: 1% 15% 0; }
+      body .head .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+      body .head #hamb {
+        display: none; }
+      body .head .logo {
+        width: 100px; }
+      body .head .liste {
+        display: flex;
+        list-style: none;
+        margin-left: auto; }
+        body .head .liste li:nth-child(1) {
+          color: #fd7083; }
+        body .head .liste li {
+          color: #6b747b; }
+        body .head .liste li, body .head .liste i {
+          margin: 0 10px; }
+        body .head .liste i {
+          color: #594cda;
+          font-size: 22px; }
+    body #desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5% 15%;
+      background: linear-gradient(180deg, #c9e9f8 0%, #fdfeff 63%); }
+      body #desktop #asdesktop {
+        display: flex;
+        flex-direction: column; }
+        body #desktop #asdesktop h1 {
+          font-size: 40px; }
+        body #desktop #asdesktop p {
+          color: #727b83;
+          margin-top: 20px; }
+        body #desktop #asdesktop #desktopbutflex {
+          display: flex;
+          flex-direction: row;
+          align-items: end; }
+          body #desktop #asdesktop #desktopbutflex button:nth-child(1) {
+            margin-right: 8px; }
+          body #desktop #asdesktop #desktopbutflex button {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            margin-top: 25px; }
+            body #desktop #asdesktop #desktopbutflex button .fa {
+              font-size: 18px; }
+            body #desktop #asdesktop #desktopbutflex button .fa, body #desktop #asdesktop #desktopbutflex button .fab {
+              padding-right: 10px; }
+      body #desktop .mobilenone {
+        display: none; }
+    body #desktop2 {
+      display: none; }
+    body #desktop3 {
+      background-color: white; }
+      body #desktop3 p {
+        color: #656b73;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 5%; }
+      body #desktop3 .mobilenone {
+        display: none; }
+    body #desktop4 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 20px;
+      padding: 5% 15%; }
+      body #desktop4 div {
+        background-color: #f0fafc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+        border-radius: 5px;
+        padding: 0 40px; }
+        body #desktop4 div h2 {
+          padding-bottom: 10px; }
+        body #desktop4 div svg {
+          width: 80px;
+          height: 80px;
+          padding-bottom: 20px; }
+        body #desktop4 div p {
+          text-align: center;
+          color: #727b83;
+          line-height: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
