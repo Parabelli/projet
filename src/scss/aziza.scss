@@ -1,27 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400;700;900&display=swap%27');
-
+$color:(purple :#594cda,
+pink: #eb427d);
+@mixin download-btn-layout($background-color){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $background-color;
+    width: 200px;
+    border-radius: 30px;
+    height: 70px;
+    padding: 5px;
+    margin-bottom:20px; 
+}
+@mixin display-flex($flex-direction,$justify-content,$align-items){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items:$align-items;
+}
 @media screen and (max-width: 810px) and (min-width:360px){
     
     .main-container{
         font-family: "Roboto", sans-serif;
         width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include display-flex(column, none, center);
+
         .tools-section{
        
             .tool-container{
                 width: 80vw;
                 border-radius: 10px;
-                display: flex;
                 background-color: #caebf8;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-between;
-                /* height: fit-content; */
+                @include display-flex(column, space-between, center);
                 padding: 10px;
                 padding-top: 45px;
-                /* margin: 25px; */
                 margin-bottom: 25px;
              
                 .features-icon{
@@ -36,7 +48,7 @@
                   .tool-desc{
                       color: #6c757c;
                       text-align: center;
-                      font-size: 15px;
+                      font-size: 17px;
                   }
             }
     
@@ -46,7 +58,7 @@
       
             padding-left: 20px;
             .details-text-container{
-                padding-left: inherit;
+                padding-left: 6vw;
                 width: 80vw;
                 .details-title{
                     font-size: 30px;
@@ -55,7 +67,7 @@
          
                 .details-text{
                     color: #6c757c;
-                    font-size: 15px;
+                    font-size: 20px;
                 }
             }
      
@@ -73,29 +85,30 @@
     
         }
         .conclusion-section{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+            @include display-flex(column, none, center);
             .conclusion-smartphone-img{
                 width: 90vw;
             }
             .download-text{
-                font-size: 32px;
+                font-size: 31px;
                 text-align: center;
+                margin: 20px;
             }
-            .download-btn{
-                .apple-download-btn{
-                    display: flex;
-                    background-color: #594cda;
-                    width: 200px;
-                    border-radius: 30px;
-                    height: 70px;
-                    justify-content: space-evenly;
-                    padding: 5px;
+            .download-btns{
+                
+                .download-btn{
+                   &.apple-download-btn{
+                    @include download-btn-layout(#594cda);
+                    
+                   }
+                   &.google-download-btn{
+                    @include download-btn-layout(#eb427d);
+
+                   }
                     .apple-logo{
                         width: 28px;
                         height: 28px;
-                        padding-top: 25px;
+                        padding-bottom: 7px;
 
                     }
                     .apple-download-text{
@@ -106,6 +119,53 @@
 
                 }
             }
+        }
+        .footer{
+            padding-top: 60px;
+            background-color: rgb(203, 235, 248);
+            padding-bottom: 20px;
+            .footer-text{
+                text-align: center;
+                padding: 10px;
+                .email-address{
+                    color: #594cda;
+                }
+            }
+            .social-media{
+                display: flex;
+            }
+            .footer-end{
+                @include display-flex(row, space-around, flex-end);
+                .policy-links{
+                    @include display-flex(column, space-between, center);
+                    display: flex;
+                    padding-left: 24vw;
+                    height: 110px;
+                    width: max-content;
+                    a{
+                        text-decoration: none;
+                        color: #6c757c;
+                        font-size: 17px;
+
+                    }
+                }
+                .up-arrow-btn{
+                    @include display-flex(column, space-around, center);
+                    width: 12vw;
+                    height: 12vw;
+                    border-radius: 50%;
+                    background-color: #4f5d68;
+                
+                    img{
+                        width: 28px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        .conclusion-background img{
+
+            width: 100vw;
         }
     }
  
